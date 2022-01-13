@@ -34,7 +34,7 @@ class QuickFindUF{
   }
 
   get() {
-		return this.id
+    return this.id
   }
 }
 
