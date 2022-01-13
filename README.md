@@ -18,8 +18,7 @@ class QuickFindUF{
 
   // TC: O(1)
   connected(p, q) {
-  	const id = this.id
-    return id[p] === id[q];
+    return this.id[p] === this.id[q];
   }
 
   // TC: O(N ^ 2)
